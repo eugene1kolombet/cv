@@ -1,0 +1,159 @@
+{
+  "frames": {
+    "temp/game_result.png": {
+      "frame": {
+        "x": 10,
+        "y": 10,
+        "w": 720,
+        "h": 1280
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1280
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1280
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "temp/game_result_bg.png": {
+      "frame": {
+        "x": 10,
+        "y": 1310,
+        "w": 720,
+        "h": 1280
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1280
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1280
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "temp/row.png": {
+      "frame": {
+        "x": 1310,
+        "y": 10,
+        "w": 605,
+        "h": 76
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 76
+      },
+      "sourceSize": {
+        "w": 605,
+        "h": 76
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "temp/row_template.png": {
+      "frame": {
+        "x": 1935,
+        "y": 10,
+        "w": 605,
+        "h": 76
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 76
+      },
+      "sourceSize": {
+        "w": 605,
+        "h": 76
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "temp/continue_btn.png": {
+      "frame": {
+        "x": 750,
+        "y": 10,
+        "w": 466,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 466,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 466,
+        "h": 126
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "temp/box.png": {
+      "frame": {
+        "x": 1310,
+        "y": 106,
+        "w": 114,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 114,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 114,
+        "h": 114
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://github.com/odrick/free-tex-packer-core",
+    "version": "0.3.4",
+    "image": "temp.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2021,
+      "h": 2040
+    },
+    "scale": 1
+  }
+}

@@ -1,0 +1,27 @@
+chestsprite.png
+size:488,523
+filter:Linear,Linear
+pma:true
+Layer 0
+bounds:217,6,238,107
+offsets:1,2,240,110
+Layer 10
+bounds:217,115,266,196
+Layer 11
+bounds:108,3,308,107
+offsets:1,1,310,109
+rotate:90
+Layer 18
+bounds:2,2,309,104
+rotate:90
+Layer 24
+bounds:329,328,48,34
+offsets:5,1,54,39
+rotate:90
+flare
+bounds:329,378,143,157
+offsets:29,26,200,200
+rotate:90
+gold_glow
+bounds:2,313,325,208
+offsets:54,49,426,306

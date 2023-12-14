@@ -1,0 +1,210 @@
+{
+"skeleton": {
+	"hash": "7Pl9yo0+5yWQo6xl5kMCObmkbMU",
+	"spine": "3.8.99",
+	"x": -156.06,
+	"y": -40.07,
+	"width": 302,
+	"height": 367,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 50, "rotation": 90, "x": -2.43, "y": 185.57 },
+	{ "name": "Skeleton", "parent": "root", "length": 60, "rotation": 90, "x": 8.37 },
+	{ "name": "bone2", "parent": "root", "length": 50, "rotation": 90, "x": -2.43, "y": 185.57 },
+	{ "name": "bone3", "parent": "root", "length": 50, "rotation": 90, "x": -2.43, "y": 185.57 }
+],
+"slots": [
+	{ "name": "bone", "bone": "bone", "attachment": "bone" },
+	{ "name": "bone2", "bone": "bone2", "attachment": "bone" },
+	{ "name": "bone3", "bone": "bone3", "attachment": "bone" },
+	{ "name": "skeleton", "bone": "Skeleton", "attachment": "skeleton" },
+	{ "name": "bonepath", "bone": "root", "attachment": "bonepath" },
+	{ "name": "bonepath2", "bone": "root", "attachment": "bonepath2" },
+	{ "name": "bonepath3", "bone": "root", "attachment": "bonepath3" }
+],
+"path": [
+	{
+		"name": "bonepath",
+		"bones": [ "bone" ],
+		"target": "bonepath",
+		"rotateMix": 0
+	},
+	{
+		"name": "bonepath2",
+		"order": 1,
+		"bones": [ "bone2" ],
+		"target": "bonepath2",
+		"rotateMix": 0
+	},
+	{
+		"name": "bonepath3",
+		"order": 2,
+		"bones": [ "bone3" ],
+		"target": "bonepath3",
+		"rotateMix": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bone": {
+				"bone": { "x": 16.58, "y": 1.94, "rotation": -75.25, "width": 99, "height": 138 }
+			},
+			"bone2": {
+				"bone": { "x": 16.58, "y": 1.94, "rotation": -75.25, "width": 99, "height": 138 }
+			},
+			"bone3": {
+				"bone": { "x": 16.58, "y": 1.94, "rotation": -75.25, "width": 99, "height": 138 }
+			},
+			"bonepath": {
+				"bonepath": {
+					"type": "path",
+					"lengths": [ 166.05, 521.11, 771.42 ],
+					"vertexCount": 9,
+					"vertices": [ -17.33, 191.89, -17.33, 191.89, -17.33, 191.89, -35, 337.54, -83.17, 336.85, -130.21, 336.18, -163.2, 137.89, -161.69, -0.18, -160.91, -71.15 ]
+				}
+			},
+			"bonepath2": {
+				"bonepath2": {
+					"type": "path",
+					"lengths": [ 146.62, 458.15, 757.97 ],
+					"vertexCount": 9,
+					"vertices": [ -4.04, 121.43, 1.46, 182.26, 8.36, 258.62, 53.08, 284.17, 88.02, 283.69, 139.57, 282.99, 176.37, 171.46, 172, 0.57, 169.04, -115.21 ]
+				}
+			},
+			"bonepath3": {
+				"bonepath3": {
+					"type": "path",
+					"lengths": [ 249.13, 649.49, 897.92 ],
+					"vertexCount": 9,
+					"vertices": [ -37.34, 150.34, -37.34, 150.34, -37.34, 150.34, -17.47, 387.11, 23.13, 387.88, 75.64, 388.88, 90.04, 143.04, 93.93, 2.01, 97.47, -126.09 ]
+				}
+			},
+			"skeleton": {
+				"skeleton": { "x": 143.43, "y": 13.43, "rotation": -90, "width": 302, "height": 367 }
+			}
+		}
+	}
+],
+"animations": {
+	"death": {
+		"slots": {
+			"bone": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff" }
+				]
+			},
+			"bone2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff" }
+				]
+			},
+			"bone3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff" }
+				]
+			},
+			"skeleton": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Skeleton": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "x": 0.601, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 1.2, "y": 1.181 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0.2667 },
+					{ "time": 0.4333, "angle": 90 },
+					{ "time": 0.6, "angle": 180 },
+					{ "time": 0.7667, "angle": -90 },
+					{ "time": 0.9333 },
+					{ "time": 1.1, "angle": 90 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0.2667 },
+					{ "time": 0.3667, "angle": 90 },
+					{ "time": 0.5, "angle": 180 },
+					{ "time": 0.6, "angle": -90 },
+					{ "time": 0.7 },
+					{ "time": 0.8333, "angle": 90 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0.2667 },
+					{ "time": 0.5, "angle": 90 },
+					{ "time": 0.7333, "angle": 180 },
+					{ "time": 0.9667, "angle": -90 },
+					{ "time": 1.2 },
+					{ "time": 1.4333, "angle": 90 }
+				]
+			}
+		},
+		"path": {
+			"bonepath": {
+				"position": [
+					{ "time": 0.2667, "curve": 0.248, "c2": 0.3, "c3": 0.81, "c4": 0.51 },
+					{ "time": 1.1, "position": 1 }
+				]
+			},
+			"bonepath2": {
+				"position": [
+					{ "time": 0.2667, "curve": 0.248, "c2": 0.3, "c3": 0.81, "c4": 0.51 },
+					{ "time": 0.8333, "position": 1 }
+				]
+			},
+			"bonepath3": {
+				"position": [
+					{ "time": 0.2667, "curve": 0.248, "c2": 0.3, "c3": 0.81, "c4": 0.51 },
+					{ "time": 1.4333, "position": 1 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"bone": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"bone2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"bone3": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Skeleton": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 0.939 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	}
+}
+}
